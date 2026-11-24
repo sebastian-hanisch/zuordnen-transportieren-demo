@@ -1,7 +1,6 @@
 # Vom Zuordnen zum Transportieren – Streamlit-Demo
 
-<!-- TODO nach dem Deploy: direkt hierher den Live-Link setzen (Leerzeile davor und danach):
-**[→ Demo live ausprobieren](https://sebastianhanisch-zuordnen-transportieren-demo.streamlit.app/)** -->
+**[→ Demo live ausprobieren](https://sebastianhanisch-zuordnen-transportieren-demo.streamlit.app/)**
 
 Teil der Reihe **optimaler-transport** („Optimaler Transport: Verteilungen ineinander verschieben“) in der „Konzepte“-Reihe für die Website „Sebastian Hanisch – Operations Research und Machine Learning“. Es ist die Wurzel der Reihe: Es setzt nichts anderes voraus, und die weiteren Demos der Reihe setzen an den Annahmen an, die hier stehen bleiben (Abschnitt „Ehrliche Grenzen“). Vehikel ist der Ort: **Lager** mit Angeboten, **Kunden** mit Nachfragen, Kosten je Einheit; gesucht ist der billigste **Transportplan**. Der Löser ist ein eigener Transportsimplex in numpy (`ztr_simplex.py`).
 
