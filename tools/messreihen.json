@@ -1,0 +1,1093 @@
+{
+ "meta": {
+  "seed": 2026,
+  "regel_reihen": "steilste"
+ },
+ "zuordnen": [
+  {
+   "familie": "Punkte im Einheitsquadrat",
+   "n": 5,
+   "instanzen": 200,
+   "seed": 2026,
+   "permutation": 200,
+   "gleicher_wert": 200,
+   "max_abweichung": 4.440892098500626e-16
+  },
+  {
+   "familie": "Punkte im Einheitsquadrat",
+   "n": 10,
+   "instanzen": 200,
+   "seed": 2026,
+   "permutation": 200,
+   "gleicher_wert": 200,
+   "max_abweichung": 4.440892098500626e-16
+  },
+  {
+   "familie": "Punkte im Einheitsquadrat",
+   "n": 20,
+   "instanzen": 100,
+   "seed": 2026,
+   "permutation": 100,
+   "gleicher_wert": 100,
+   "max_abweichung": 4.440892098500626e-16
+  },
+  {
+   "familie": "Punkte im Einheitsquadrat",
+   "n": 40,
+   "instanzen": 20,
+   "seed": 2026,
+   "permutation": 20,
+   "gleicher_wert": 20,
+   "max_abweichung": 2.220446049250313e-16
+  },
+  {
+   "familie": "stetig (Zufallskosten)",
+   "n": 5,
+   "instanzen": 200,
+   "seed": 2026,
+   "permutation": 200,
+   "gleicher_wert": 200,
+   "max_abweichung": 4.440892098500626e-16
+  },
+  {
+   "familie": "stetig (Zufallskosten)",
+   "n": 10,
+   "instanzen": 200,
+   "seed": 2026,
+   "permutation": 200,
+   "gleicher_wert": 200,
+   "max_abweichung": 6.661338147750939e-16
+  },
+  {
+   "familie": "stetig (Zufallskosten)",
+   "n": 20,
+   "instanzen": 100,
+   "seed": 2026,
+   "permutation": 100,
+   "gleicher_wert": 100,
+   "max_abweichung": 4.440892098500626e-16
+  },
+  {
+   "familie": "stetig (Zufallskosten)",
+   "n": 40,
+   "instanzen": 20,
+   "seed": 2026,
+   "permutation": 20,
+   "gleicher_wert": 20,
+   "max_abweichung": 4.440892098500626e-16
+  },
+  {
+   "familie": "ganzzahlig 0 bis 100",
+   "n": 5,
+   "instanzen": 200,
+   "seed": 2026,
+   "permutation": 200,
+   "gleicher_wert": 200,
+   "max_abweichung": 2.842170943040401e-14
+  },
+  {
+   "familie": "ganzzahlig 0 bis 100",
+   "n": 10,
+   "instanzen": 200,
+   "seed": 2026,
+   "permutation": 200,
+   "gleicher_wert": 200,
+   "max_abweichung": 5.684341886080802e-14
+  },
+  {
+   "familie": "ganzzahlig 0 bis 100",
+   "n": 20,
+   "instanzen": 100,
+   "seed": 2026,
+   "permutation": 100,
+   "gleicher_wert": 100,
+   "max_abweichung": 2.842170943040401e-14
+  },
+  {
+   "familie": "ganzzahlig 0 bis 100",
+   "n": 40,
+   "instanzen": 20,
+   "seed": 2026,
+   "permutation": 20,
+   "gleicher_wert": 20,
+   "max_abweichung": 2.842170943040401e-14
+  },
+  {
+   "familie": "ganzzahlig 0 bis 10",
+   "n": 5,
+   "instanzen": 200,
+   "seed": 2026,
+   "permutation": 200,
+   "gleicher_wert": 200,
+   "max_abweichung": 3.552713678800501e-15
+  },
+  {
+   "familie": "ganzzahlig 0 bis 10",
+   "n": 10,
+   "instanzen": 200,
+   "seed": 2026,
+   "permutation": 200,
+   "gleicher_wert": 200,
+   "max_abweichung": 3.552713678800501e-15
+  },
+  {
+   "familie": "ganzzahlig 0 bis 10",
+   "n": 20,
+   "instanzen": 100,
+   "seed": 2026,
+   "permutation": 100,
+   "gleicher_wert": 100,
+   "max_abweichung": 3.552713678800501e-15
+  },
+  {
+   "familie": "ganzzahlig 0 bis 10",
+   "n": 40,
+   "instanzen": 20,
+   "seed": 2026,
+   "permutation": 20,
+   "gleicher_wert": 20,
+   "max_abweichung": 4.440892098500626e-16
+  },
+  {
+   "familie": "ganzzahlig 0 bis 2",
+   "n": 5,
+   "instanzen": 200,
+   "seed": 2026,
+   "permutation": 200,
+   "gleicher_wert": 200,
+   "max_abweichung": 4.440892098500626e-16
+  },
+  {
+   "familie": "ganzzahlig 0 bis 2",
+   "n": 10,
+   "instanzen": 200,
+   "seed": 2026,
+   "permutation": 200,
+   "gleicher_wert": 200,
+   "max_abweichung": 4.440892098500626e-16
+  },
+  {
+   "familie": "ganzzahlig 0 bis 2",
+   "n": 20,
+   "instanzen": 100,
+   "seed": 2026,
+   "permutation": 100,
+   "gleicher_wert": 100,
+   "max_abweichung": 0.0
+  },
+  {
+   "familie": "ganzzahlig 0 bis 2",
+   "n": 40,
+   "instanzen": 20,
+   "seed": 2026,
+   "permutation": 20,
+   "gleicher_wert": 20,
+   "max_abweichung": 0.0
+  },
+  {
+   "familie": "Gitter L1",
+   "n": 5,
+   "instanzen": 200,
+   "seed": 2026,
+   "permutation": 200,
+   "gleicher_wert": 200,
+   "max_abweichung": 3.552713678800501e-15
+  },
+  {
+   "familie": "Gitter L1",
+   "n": 10,
+   "instanzen": 200,
+   "seed": 2026,
+   "permutation": 200,
+   "gleicher_wert": 200,
+   "max_abweichung": 7.105427357601002e-15
+  },
+  {
+   "familie": "Gitter L1",
+   "n": 20,
+   "instanzen": 100,
+   "seed": 2026,
+   "permutation": 100,
+   "gleicher_wert": 100,
+   "max_abweichung": 1.4210854715202004e-14
+  },
+  {
+   "familie": "Gitter L1",
+   "n": 40,
+   "instanzen": 20,
+   "seed": 2026,
+   "permutation": 20,
+   "gleicher_wert": 20,
+   "max_abweichung": 1.4210854715202004e-14
+  },
+  {
+   "familie": "Gitter L2²",
+   "n": 5,
+   "instanzen": 200,
+   "seed": 2026,
+   "permutation": 200,
+   "gleicher_wert": 200,
+   "max_abweichung": 7.105427357601002e-15
+  },
+  {
+   "familie": "Gitter L2²",
+   "n": 10,
+   "instanzen": 200,
+   "seed": 2026,
+   "permutation": 200,
+   "gleicher_wert": 200,
+   "max_abweichung": 7.105427357601002e-15
+  },
+  {
+   "familie": "Gitter L2²",
+   "n": 20,
+   "instanzen": 100,
+   "seed": 2026,
+   "permutation": 100,
+   "gleicher_wert": 100,
+   "max_abweichung": 2.842170943040401e-14
+  },
+  {
+   "familie": "Gitter L2²",
+   "n": 40,
+   "instanzen": 20,
+   "seed": 2026,
+   "permutation": 20,
+   "gleicher_wert": 20,
+   "max_abweichung": 2.842170943040401e-14
+  }
+ ],
+ "uebergang": [
+  {
+   "s": 0.0,
+   "familie": "Punkte im Einheitsquadrat",
+   "n": 20,
+   "instanzen": 100,
+   "seed": 2026,
+   "gespalten_mittel": 0.0,
+   "gespalten_min": 0,
+   "gespalten_max": 0,
+   "neben_mittel": 0.0,
+   "monge": 100,
+   "voll": 0
+  },
+  {
+   "s": 0.001,
+   "familie": "Punkte im Einheitsquadrat",
+   "n": 20,
+   "instanzen": 100,
+   "seed": 2026,
+   "gespalten_mittel": 15.2,
+   "gespalten_min": 12,
+   "gespalten_max": 19,
+   "neben_mittel": 0.001419144804004485,
+   "monge": 0,
+   "voll": 100
+  },
+  {
+   "s": 0.01,
+   "familie": "Punkte im Einheitsquadrat",
+   "n": 20,
+   "instanzen": 100,
+   "seed": 2026,
+   "gespalten_mittel": 14.89,
+   "gespalten_min": 12,
+   "gespalten_max": 19,
+   "neben_mittel": 0.013219721450465178,
+   "monge": 0,
+   "voll": 100
+  },
+  {
+   "s": 0.03,
+   "familie": "Punkte im Einheitsquadrat",
+   "n": 20,
+   "instanzen": 100,
+   "seed": 2026,
+   "gespalten_mittel": 15.35,
+   "gespalten_min": 11,
+   "gespalten_max": 18,
+   "neben_mittel": 0.04360724916447728,
+   "monge": 0,
+   "voll": 100
+  },
+  {
+   "s": 0.1,
+   "familie": "Punkte im Einheitsquadrat",
+   "n": 20,
+   "instanzen": 100,
+   "seed": 2026,
+   "gespalten_mittel": 14.95,
+   "gespalten_min": 11,
+   "gespalten_max": 18,
+   "neben_mittel": 0.12905289757175942,
+   "monge": 0,
+   "voll": 100
+  },
+  {
+   "s": 0.3,
+   "familie": "Punkte im Einheitsquadrat",
+   "n": 20,
+   "instanzen": 100,
+   "seed": 2026,
+   "gespalten_mittel": 14.49,
+   "gespalten_min": 10,
+   "gespalten_max": 17,
+   "neben_mittel": 0.23241614624893345,
+   "monge": 0,
+   "voll": 100
+  },
+  {
+   "s": 1.0,
+   "familie": "Punkte im Einheitsquadrat",
+   "n": 20,
+   "instanzen": 100,
+   "seed": 2026,
+   "gespalten_mittel": 10.02,
+   "gespalten_min": 6,
+   "gespalten_max": 14,
+   "neben_mittel": 0.2875814292457603,
+   "monge": 0,
+   "voll": 100
+  }
+ ],
+ "uebergang_1000": [
+  {
+   "s": 0.001,
+   "familie": "Punkte im Einheitsquadrat",
+   "n": 20,
+   "instanzen": 1000,
+   "seed": 2027,
+   "gespalten_mittel": 15.214,
+   "gespalten_min": 11,
+   "gespalten_max": 18,
+   "neben_mittel": 0.0013906871394315933,
+   "monge": 0,
+   "voll": 1000
+  },
+  {
+   "s": 0.03,
+   "familie": "Punkte im Einheitsquadrat",
+   "n": 20,
+   "instanzen": 1000,
+   "seed": 2027,
+   "gespalten_mittel": 15.114,
+   "gespalten_min": 11,
+   "gespalten_max": 19,
+   "neben_mittel": 0.041100901197841065,
+   "monge": 0,
+   "voll": 1000
+  }
+ ],
+ "uebergang_stetig": [
+  {
+   "s": 1.0,
+   "familie": "stetig (Zufallskosten)",
+   "n": 20,
+   "instanzen": 200,
+   "seed": 2026,
+   "gespalten_mittel": 10.08,
+   "gespalten_min": 5,
+   "gespalten_max": 15,
+   "neben_mittel": 0.29510859923786253,
+   "monge": 0,
+   "voll": 200
+  }
+ ],
+ "uebergang_n": [
+  {
+   "s": 1.0,
+   "familie": "Punkte im Einheitsquadrat",
+   "n": 5,
+   "instanzen": 60,
+   "seed": 2026,
+   "gespalten_mittel": 2.4833333333333334,
+   "gespalten_min": 1,
+   "gespalten_max": 4,
+   "neben_mittel": 0.26640949723833346,
+   "monge": 0,
+   "voll": 60
+  },
+  {
+   "s": 1.0,
+   "familie": "Punkte im Einheitsquadrat",
+   "n": 10,
+   "instanzen": 60,
+   "seed": 2026,
+   "gespalten_mittel": 4.933333333333334,
+   "gespalten_min": 3,
+   "gespalten_max": 7,
+   "neben_mittel": 0.289890710477768,
+   "monge": 0,
+   "voll": 60
+  },
+  {
+   "s": 1.0,
+   "familie": "Punkte im Einheitsquadrat",
+   "n": 20,
+   "instanzen": 60,
+   "seed": 2026,
+   "gespalten_mittel": 9.633333333333333,
+   "gespalten_min": 6,
+   "gespalten_max": 13,
+   "neben_mittel": 0.3045220443669028,
+   "monge": 0,
+   "voll": 60
+  },
+  {
+   "s": 1.0,
+   "familie": "Punkte im Einheitsquadrat",
+   "n": 40,
+   "instanzen": 60,
+   "seed": 2026,
+   "gespalten_mittel": 20.183333333333334,
+   "gespalten_min": 14,
+   "gespalten_max": 26,
+   "neben_mittel": 0.29677654121364433,
+   "monge": 0,
+   "voll": 60
+  }
+ ],
+ "gleichstand": [
+  {
+   "familie": "stetig (Zufallskosten)",
+   "n": 10,
+   "s": 0.0,
+   "instanzen": 300,
+   "seed": 2026,
+   "gitter_seite": 0,
+   "ziehung": "ohne Zurücklegen",
+   "mehrere_optima": 0,
+   "verschiedene_plaene": 0,
+   "max_wertabweichung": 0.0,
+   "zweit_spanne_mittel": 0.0
+  },
+  {
+   "familie": "ganzzahlig 0 bis 10",
+   "n": 10,
+   "s": 0.0,
+   "instanzen": 300,
+   "seed": 2026,
+   "gitter_seite": 0,
+   "ziehung": "ohne Zurücklegen",
+   "mehrere_optima": 168,
+   "verschiedene_plaene": 137,
+   "max_wertabweichung": 4.440892098500626e-16,
+   "zweit_spanne_mittel": 0.1324774004898289
+  },
+  {
+   "familie": "ganzzahlig 0 bis 2",
+   "n": 10,
+   "s": 0.0,
+   "instanzen": 300,
+   "seed": 2026,
+   "gitter_seite": 0,
+   "ziehung": "ohne Zurücklegen",
+   "mehrere_optima": 298,
+   "verschiedene_plaene": 294,
+   "max_wertabweichung": 0.0,
+   "zweit_spanne_mittel": 0.2372591652378567
+  },
+  {
+   "familie": "Gitter L1",
+   "n": 10,
+   "s": 0.0,
+   "instanzen": 300,
+   "seed": 2026,
+   "gitter_seite": 6,
+   "ziehung": "ohne Zurücklegen",
+   "mehrere_optima": 299,
+   "verschiedene_plaene": 290,
+   "max_wertabweichung": 8.881784197001252e-16,
+   "zweit_spanne_mittel": 0.1370531340415303
+  },
+  {
+   "familie": "Gitter L2²",
+   "n": 10,
+   "s": 0.0,
+   "instanzen": 300,
+   "seed": 2026,
+   "gitter_seite": 6,
+   "ziehung": "ohne Zurücklegen",
+   "mehrere_optima": 223,
+   "verschiedene_plaene": 188,
+   "max_wertabweichung": 1.7763568394002505e-15,
+   "zweit_spanne_mittel": 0.01619472127636681
+  }
+ ],
+ "gleichstand_gitter": [
+  {
+   "familie": "Gitter L1",
+   "n": 10,
+   "s": 0.0,
+   "instanzen": 150,
+   "seed": 2026,
+   "gitter_seite": 6,
+   "ziehung": "mit Zurücklegen",
+   "mehrere_optima": 150,
+   "verschiedene_plaene": 150,
+   "max_wertabweichung": 8.881784197001252e-16,
+   "zweit_spanne_mittel": 0.12205773221159456
+  },
+  {
+   "familie": "Gitter L1",
+   "n": 10,
+   "s": 0.0,
+   "instanzen": 150,
+   "seed": 2026,
+   "gitter_seite": 10,
+   "ziehung": "mit Zurücklegen",
+   "mehrere_optima": 148,
+   "verschiedene_plaene": 142,
+   "max_wertabweichung": 8.881784197001252e-16,
+   "zweit_spanne_mittel": 0.10004327135258384
+  },
+  {
+   "familie": "Gitter L1",
+   "n": 10,
+   "s": 0.0,
+   "instanzen": 150,
+   "seed": 2026,
+   "gitter_seite": 20,
+   "ziehung": "mit Zurücklegen",
+   "mehrere_optima": 144,
+   "verschiedene_plaene": 134,
+   "max_wertabweichung": 1.7763568394002505e-15,
+   "zweit_spanne_mittel": 0.07564472657543314
+  },
+  {
+   "familie": "Gitter L2²",
+   "n": 10,
+   "s": 0.0,
+   "instanzen": 150,
+   "seed": 2026,
+   "gitter_seite": 6,
+   "ziehung": "mit Zurücklegen",
+   "mehrere_optima": 150,
+   "verschiedene_plaene": 140,
+   "max_wertabweichung": 8.881784197001252e-16,
+   "zweit_spanne_mittel": 0.014593555763613316
+  },
+  {
+   "familie": "Gitter L2²",
+   "n": 10,
+   "s": 0.0,
+   "instanzen": 150,
+   "seed": 2026,
+   "gitter_seite": 10,
+   "ziehung": "mit Zurücklegen",
+   "mehrere_optima": 125,
+   "verschiedene_plaene": 109,
+   "max_wertabweichung": 3.552713678800501e-15,
+   "zweit_spanne_mittel": 0.007584856958845144
+  },
+  {
+   "familie": "Gitter L2²",
+   "n": 10,
+   "s": 0.0,
+   "instanzen": 150,
+   "seed": 2026,
+   "gitter_seite": 20,
+   "ziehung": "mit Zurücklegen",
+   "mehrere_optima": 53,
+   "verschiedene_plaene": 43,
+   "max_wertabweichung": 1.4210854715202004e-14,
+   "zweit_spanne_mittel": 0.00887618653032123
+  }
+ ],
+ "gleichstand_transport": [
+  {
+   "familie": "stetig (Zufallskosten)",
+   "n": 15,
+   "s": 1.0,
+   "instanzen": 150,
+   "seed": 2026,
+   "gitter_seite": 0,
+   "ziehung": "ohne Zurücklegen",
+   "mehrere_optima": 0,
+   "verschiedene_plaene": 0,
+   "max_wertabweichung": 1.1102230246251565e-16,
+   "zweit_spanne_mittel": 0.0
+  },
+  {
+   "familie": "Gitter L1",
+   "n": 15,
+   "s": 1.0,
+   "instanzen": 150,
+   "seed": 2026,
+   "gitter_seite": 7,
+   "ziehung": "ohne Zurücklegen",
+   "mehrere_optima": 150,
+   "verschiedene_plaene": 150,
+   "max_wertabweichung": 1.3322676295501878e-15,
+   "zweit_spanne_mittel": 0.06667250529039682
+  }
+ ],
+ "dualitaet": {
+  "instanzen": 100,
+  "luecke": 4.440892098500626e-16,
+  "verletzung": 5.551115123125783e-17,
+  "groessen": [
+   3,
+   8,
+   20,
+   40
+  ]
+ },
+ "presets": {
+  "Von Hand: 3 × 3 Zuordnung": {
+   "zuordnen": {
+    "familie": "Gitter L1",
+    "n": 10,
+    "instanzen": 100,
+    "seed": 35,
+    "permutation": 100,
+    "gleicher_wert": 100,
+    "max_abweichung": 7.105427357601002e-15
+   },
+   "uebergang": [
+    {
+     "s": 0.0,
+     "familie": "Gitter L1",
+     "n": 10,
+     "instanzen": 100,
+     "seed": 35,
+     "gespalten_mittel": 0.0,
+     "gespalten_min": 0,
+     "gespalten_max": 0,
+     "neben_mittel": 0.0,
+     "monge": 100,
+     "voll": 0
+    },
+    {
+     "s": 0.001,
+     "familie": "Gitter L1",
+     "n": 10,
+     "instanzen": 100,
+     "seed": 35,
+     "gespalten_mittel": 6.91,
+     "gespalten_min": 4,
+     "gespalten_max": 9,
+     "neben_mittel": 0.0010228483125616517,
+     "monge": 0,
+     "voll": 100
+    },
+    {
+     "s": 0.01,
+     "familie": "Gitter L1",
+     "n": 10,
+     "instanzen": 100,
+     "seed": 35,
+     "gespalten_mittel": 7.04,
+     "gespalten_min": 4,
+     "gespalten_max": 9,
+     "neben_mittel": 0.009812422648900863,
+     "monge": 0,
+     "voll": 100
+    },
+    {
+     "s": 0.1,
+     "familie": "Gitter L1",
+     "n": 10,
+     "instanzen": 100,
+     "seed": 35,
+     "gespalten_mittel": 6.87,
+     "gespalten_min": 4,
+     "gespalten_max": 9,
+     "neben_mittel": 0.09824902957927506,
+     "monge": 0,
+     "voll": 100
+    },
+    {
+     "s": 1.0,
+     "familie": "Gitter L1",
+     "n": 10,
+     "instanzen": 100,
+     "seed": 35,
+     "gespalten_mittel": 4.94,
+     "gespalten_min": 3,
+     "gespalten_max": 8,
+     "neben_mittel": 0.2736536851038968,
+     "monge": 0,
+     "voll": 100
+    }
+   ],
+   "gleichstand": {
+    "familie": "Gitter L1",
+    "n": 10,
+    "s": 0.0,
+    "instanzen": 100,
+    "seed": 35,
+    "gitter_seite": 6,
+    "ziehung": "ohne Zurücklegen",
+    "mehrere_optima": 98,
+    "verschiedene_plaene": 97,
+    "max_wertabweichung": 8.881784197001252e-16,
+    "zweit_spanne_mittel": 0.13892718159033565
+   }
+  },
+  "Von Hand: 3 × 3 Transport": {
+   "zuordnen": {
+    "familie": "Gitter L1",
+    "n": 10,
+    "instanzen": 100,
+    "seed": 35,
+    "permutation": 100,
+    "gleicher_wert": 100,
+    "max_abweichung": 7.105427357601002e-15
+   },
+   "uebergang": [
+    {
+     "s": 0.0,
+     "familie": "Gitter L1",
+     "n": 10,
+     "instanzen": 100,
+     "seed": 35,
+     "gespalten_mittel": 0.0,
+     "gespalten_min": 0,
+     "gespalten_max": 0,
+     "neben_mittel": 0.0,
+     "monge": 100,
+     "voll": 0
+    },
+    {
+     "s": 0.001,
+     "familie": "Gitter L1",
+     "n": 10,
+     "instanzen": 100,
+     "seed": 35,
+     "gespalten_mittel": 6.91,
+     "gespalten_min": 4,
+     "gespalten_max": 9,
+     "neben_mittel": 0.0010228483125616517,
+     "monge": 0,
+     "voll": 100
+    },
+    {
+     "s": 0.01,
+     "familie": "Gitter L1",
+     "n": 10,
+     "instanzen": 100,
+     "seed": 35,
+     "gespalten_mittel": 7.04,
+     "gespalten_min": 4,
+     "gespalten_max": 9,
+     "neben_mittel": 0.009812422648900863,
+     "monge": 0,
+     "voll": 100
+    },
+    {
+     "s": 0.1,
+     "familie": "Gitter L1",
+     "n": 10,
+     "instanzen": 100,
+     "seed": 35,
+     "gespalten_mittel": 6.87,
+     "gespalten_min": 4,
+     "gespalten_max": 9,
+     "neben_mittel": 0.09824902957927506,
+     "monge": 0,
+     "voll": 100
+    },
+    {
+     "s": 1.0,
+     "familie": "Gitter L1",
+     "n": 10,
+     "instanzen": 100,
+     "seed": 35,
+     "gespalten_mittel": 4.94,
+     "gespalten_min": 3,
+     "gespalten_max": 8,
+     "neben_mittel": 0.2736536851038968,
+     "monge": 0,
+     "voll": 100
+    }
+   ],
+   "gleichstand": {
+    "familie": "Gitter L1",
+    "n": 10,
+    "s": 0.0,
+    "instanzen": 100,
+    "seed": 35,
+    "gitter_seite": 6,
+    "ziehung": "ohne Zurücklegen",
+    "mehrere_optima": 98,
+    "verschiedene_plaene": 97,
+    "max_wertabweichung": 8.881784197001252e-16,
+    "zweit_spanne_mittel": 0.13892718159033565
+   }
+  },
+  "Gleichstand: Gitter": {
+   "zuordnen": {
+    "familie": "Gitter L1",
+    "n": 10,
+    "instanzen": 100,
+    "seed": 7,
+    "permutation": 100,
+    "gleicher_wert": 100,
+    "max_abweichung": 7.105427357601002e-15
+   },
+   "uebergang": [
+    {
+     "s": 0.0,
+     "familie": "Gitter L1",
+     "n": 10,
+     "instanzen": 100,
+     "seed": 7,
+     "gespalten_mittel": 0.0,
+     "gespalten_min": 0,
+     "gespalten_max": 0,
+     "neben_mittel": 0.0,
+     "monge": 100,
+     "voll": 0
+    },
+    {
+     "s": 0.001,
+     "familie": "Gitter L1",
+     "n": 10,
+     "instanzen": 100,
+     "seed": 7,
+     "gespalten_mittel": 7.07,
+     "gespalten_min": 4,
+     "gespalten_max": 9,
+     "neben_mittel": 0.0009063414704171656,
+     "monge": 0,
+     "voll": 100
+    },
+    {
+     "s": 0.01,
+     "familie": "Gitter L1",
+     "n": 10,
+     "instanzen": 100,
+     "seed": 7,
+     "gespalten_mittel": 7.06,
+     "gespalten_min": 5,
+     "gespalten_max": 9,
+     "neben_mittel": 0.009856583753664203,
+     "monge": 0,
+     "voll": 100
+    },
+    {
+     "s": 0.1,
+     "familie": "Gitter L1",
+     "n": 10,
+     "instanzen": 100,
+     "seed": 7,
+     "gespalten_mittel": 7.2,
+     "gespalten_min": 5,
+     "gespalten_max": 9,
+     "neben_mittel": 0.10345972834885395,
+     "monge": 0,
+     "voll": 100
+    },
+    {
+     "s": 1.0,
+     "familie": "Gitter L1",
+     "n": 10,
+     "instanzen": 100,
+     "seed": 7,
+     "gespalten_mittel": 5.05,
+     "gespalten_min": 3,
+     "gespalten_max": 8,
+     "neben_mittel": 0.27634781340210013,
+     "monge": 0,
+     "voll": 100
+    }
+   ],
+   "gleichstand": {
+    "familie": "Gitter L1",
+    "n": 10,
+    "s": 0.0,
+    "instanzen": 100,
+    "seed": 7,
+    "gitter_seite": 6,
+    "ziehung": "ohne Zurücklegen",
+    "mehrere_optima": 98,
+    "verschiedene_plaene": 92,
+    "max_wertabweichung": 4.440892098500626e-16,
+    "zweit_spanne_mittel": 0.12892454681774188
+   }
+  },
+  "Übergang s = 0,001": {
+   "zuordnen": {
+    "familie": "Punkte im Einheitsquadrat",
+    "n": 20,
+    "instanzen": 100,
+    "seed": 11,
+    "permutation": 100,
+    "gleicher_wert": 100,
+    "max_abweichung": 2.220446049250313e-16
+   },
+   "uebergang": [
+    {
+     "s": 0.0,
+     "familie": "Punkte im Einheitsquadrat",
+     "n": 20,
+     "instanzen": 100,
+     "seed": 11,
+     "gespalten_mittel": 0.0,
+     "gespalten_min": 0,
+     "gespalten_max": 0,
+     "neben_mittel": 0.0,
+     "monge": 100,
+     "voll": 0
+    },
+    {
+     "s": 0.001,
+     "familie": "Punkte im Einheitsquadrat",
+     "n": 20,
+     "instanzen": 100,
+     "seed": 11,
+     "gespalten_mittel": 15.15,
+     "gespalten_min": 13,
+     "gespalten_max": 18,
+     "neben_mittel": 0.0012930412014795364,
+     "monge": 0,
+     "voll": 100
+    },
+    {
+     "s": 0.01,
+     "familie": "Punkte im Einheitsquadrat",
+     "n": 20,
+     "instanzen": 100,
+     "seed": 11,
+     "gespalten_mittel": 15.23,
+     "gespalten_min": 12,
+     "gespalten_max": 18,
+     "neben_mittel": 0.013866564588495249,
+     "monge": 0,
+     "voll": 100
+    },
+    {
+     "s": 0.1,
+     "familie": "Punkte im Einheitsquadrat",
+     "n": 20,
+     "instanzen": 100,
+     "seed": 11,
+     "gespalten_mittel": 15.08,
+     "gespalten_min": 11,
+     "gespalten_max": 18,
+     "neben_mittel": 0.13348988949408735,
+     "monge": 0,
+     "voll": 100
+    },
+    {
+     "s": 1.0,
+     "familie": "Punkte im Einheitsquadrat",
+     "n": 20,
+     "instanzen": 100,
+     "seed": 11,
+     "gespalten_mittel": 9.86,
+     "gespalten_min": 6,
+     "gespalten_max": 14,
+     "neben_mittel": 0.2982912927659697,
+     "monge": 0,
+     "voll": 100
+    }
+   ],
+   "gleichstand": {
+    "familie": "Punkte im Einheitsquadrat",
+    "n": 20,
+    "s": 0.001,
+    "instanzen": 100,
+    "seed": 11,
+    "gitter_seite": 0,
+    "ziehung": "ohne Zurücklegen",
+    "mehrere_optima": 0,
+    "verschiedene_plaene": 0,
+    "max_wertabweichung": 0.0,
+    "zweit_spanne_mittel": 0.0
+   }
+  },
+  "Viele Lager n = 20": {
+   "zuordnen": {
+    "familie": "Punkte im Einheitsquadrat",
+    "n": 20,
+    "instanzen": 100,
+    "seed": 3,
+    "permutation": 100,
+    "gleicher_wert": 100,
+    "max_abweichung": 3.3306690738754696e-16
+   },
+   "uebergang": [
+    {
+     "s": 0.0,
+     "familie": "Punkte im Einheitsquadrat",
+     "n": 20,
+     "instanzen": 100,
+     "seed": 3,
+     "gespalten_mittel": 0.0,
+     "gespalten_min": 0,
+     "gespalten_max": 0,
+     "neben_mittel": 0.0,
+     "monge": 100,
+     "voll": 0
+    },
+    {
+     "s": 0.001,
+     "familie": "Punkte im Einheitsquadrat",
+     "n": 20,
+     "instanzen": 100,
+     "seed": 3,
+     "gespalten_mittel": 15.2,
+     "gespalten_min": 12,
+     "gespalten_max": 19,
+     "neben_mittel": 0.0013659256170096231,
+     "monge": 0,
+     "voll": 100
+    },
+    {
+     "s": 0.01,
+     "familie": "Punkte im Einheitsquadrat",
+     "n": 20,
+     "instanzen": 100,
+     "seed": 3,
+     "gespalten_mittel": 15.35,
+     "gespalten_min": 13,
+     "gespalten_max": 19,
+     "neben_mittel": 0.014676997688878885,
+     "monge": 0,
+     "voll": 100
+    },
+    {
+     "s": 0.1,
+     "familie": "Punkte im Einheitsquadrat",
+     "n": 20,
+     "instanzen": 100,
+     "seed": 3,
+     "gespalten_mittel": 14.86,
+     "gespalten_min": 12,
+     "gespalten_max": 18,
+     "neben_mittel": 0.1354143156649704,
+     "monge": 0,
+     "voll": 100
+    },
+    {
+     "s": 1.0,
+     "familie": "Punkte im Einheitsquadrat",
+     "n": 20,
+     "instanzen": 100,
+     "seed": 3,
+     "gespalten_mittel": 9.81,
+     "gespalten_min": 6,
+     "gespalten_max": 13,
+     "neben_mittel": 0.297120650874338,
+     "monge": 0,
+     "voll": 100
+    }
+   ],
+   "gleichstand": {
+    "familie": "Punkte im Einheitsquadrat",
+    "n": 20,
+    "s": 1.0,
+    "instanzen": 100,
+    "seed": 3,
+    "gitter_seite": 0,
+    "ziehung": "ohne Zurücklegen",
+    "mehrere_optima": 0,
+    "verschiedene_plaene": 0,
+    "max_wertabweichung": 9.71445146547012e-17,
+    "zweit_spanne_mittel": 0.0
+   }
+  }
+ }
+}

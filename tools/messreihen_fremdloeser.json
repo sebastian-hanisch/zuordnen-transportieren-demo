@@ -1,0 +1,60 @@
+{
+ "meta": {
+  "seed": 2033,
+  "scipy": "1.18.1",
+  "networkx": "3.7",
+  "ortools": "9.15.6755",
+  "numpy": "2.5.3",
+  "loeser": [
+   "linprog highs-ds",
+   "linprog highs-ipm",
+   "linear_sum_assignment",
+   "ortools SimpleMinCostFlow",
+   "networkx network_simplex"
+  ]
+ },
+ "reihen": [
+  {
+   "familie": "stetig (Zufallskosten)",
+   "n": 10,
+   "instanzen": 150,
+   "verschiedene_plaene": 0,
+   "gleicher_wert": 150
+  },
+  {
+   "familie": "ganzzahlig 0 bis 100",
+   "n": 10,
+   "instanzen": 150,
+   "verschiedene_plaene": 14,
+   "gleicher_wert": 150
+  },
+  {
+   "familie": "ganzzahlig 0 bis 10",
+   "n": 10,
+   "instanzen": 150,
+   "verschiedene_plaene": 86,
+   "gleicher_wert": 150
+  },
+  {
+   "familie": "ganzzahlig 0 bis 2",
+   "n": 10,
+   "instanzen": 150,
+   "verschiedene_plaene": 148,
+   "gleicher_wert": 150
+  },
+  {
+   "familie": "Gitter L1",
+   "n": 10,
+   "instanzen": 150,
+   "verschiedene_plaene": 148,
+   "gleicher_wert": 150
+  },
+  {
+   "familie": "Gitter L2²",
+   "n": 10,
+   "instanzen": 150,
+   "verschiedene_plaene": 113,
+   "gleicher_wert": 150
+  }
+ ]
+}
