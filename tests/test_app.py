@@ -189,3 +189,14 @@ def test_formel_expander_zeigt_preise_schlupf_dualwert_zahlenzeile_und_preisprob
     tabelle = [df for df in at.dataframe if list(df.value.columns) == ["Lager", "K1", "K2", "K3"]]
     assert len(tabelle) == 1 and tabelle[0].value.values.tolist() == [["L1", "0", "0", "10"], ["L2", "32", "0", "26"], ["L3", "16", "0", "0"]]      # Schlupf wie von Hand gerechnet
     assert "Ausklappbereich" not in text
+
+
+def test_expander_in_einfachen_worten_verlinkt_die_erklaerseite_und_die_lesehilfe_steht_einmal():
+    at = _fresh_app()
+    expander = [e for e in at.expander if e.label == "💬 In einfachen Worten"]
+    assert len(expander) == 1
+    inhalt = " ".join(m.value for m in expander[0].markdown)
+    assert "](https://sebastianhanisch.net/transportplan-erklaert.html)" in inhalt
+    alles = " ".join(m.value for m in at.markdown)
+    assert "der Expander **💬 In einfachen Worten**" in alles                      # die Einleitung nennt ihn
+    assert alles.count("**Lesehilfe.**") == 1 and "](https://sebastianhanisch.net/transportplan-erklaert.html#fachleute)" in alles      # eine Lesehilfe, mit Link auf den Fachteil

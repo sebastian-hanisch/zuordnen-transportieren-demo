@@ -74,10 +74,21 @@ Kunden **spalten**; bei den zufällig gezogenen Massen dieser Demo tut er es in 
 das betrifft und **wie viel Masse**, und zeigt, dass bei Gleichstand der gezeigte Plan nur **eine Auswahl** unter gleich guten ist. Gerechnet wird mit einem eigenen
 **Transportsimplex** (Verfahren über Ecken), dessen Ergebnisse die Tests gegen unabhängige Verfahren prüfen.
 
-Weiter unten: **❓ Kernfragen**, die drei **🔬 Experimente**, **🚧 Wo die Annahmen enden** und die Expander **⚠️ Annahmen, Grenzen und bekannte Probleme** und
+Weiter unten: der Expander **💬 In einfachen Worten**, **❓ Kernfragen**, die drei **🔬 Experimente**, **🚧 Wo die Annahmen enden** und die Expander **⚠️ Annahmen, Grenzen und bekannte Probleme** und
 **📐 Mathematische Formulierung** (mit den Preisen, englisch dual variables).
 """
 )
+
+# erklaerseite:einfach:start (erzeugt von tools/set_demo_explainer.py (Website-Repo) aus tools/content/explainers/transportplan-erklaert.json, nicht von Hand ändern)
+with st.expander("💬 In einfachen Worten"):
+    st.markdown(
+        """
+Ein **Transportplan** sagt, welches Lager wie viel an welchen Kunden liefert, bei kleinsten Gesamtkosten. Haben alle Lager und alle Kunden gleich viel, gibt es immer einen billigsten Plan, in dem jedes Lager an genau einen Kunden liefert: eine **Zuordnung**. Bei verschiedenen Mengen **kann** der Plan Lager auf mehrere Kunden **spalten**; bei den zufällig gezogenen Mengen dieser Demo tut er es in allen gemessenen Beispielen. Die Demo zählt, wie viele Lager gespalten sind, und wiegt, wie viel Menge das betrifft: Die Zählung springt schon bei kleinen Mengenunterschieden, die betroffene Menge wächst stetig. Gibt es mehrere gleich gute Pläne, zeigt die Demo nur **eine Auswahl** davon; ein anderes Verfahren kann einen anderen wählen. **Preise** für Lager und Kunden prüfen den Plan: Passen sie dazu, gibt es keinen billigeren.
+
+[Ausführlich und verständlich erklärt, mit Fachteil](https://sebastianhanisch.net/transportplan-erklaert.html)
+        """
+    )
+# erklaerseite:einfach:end
 
 with st.expander("So funktioniert der Transportsimplex", expanded=True):
     st.markdown(
@@ -293,13 +304,14 @@ with st.expander("⚠️ Annahmen, Grenzen und bekannte Probleme"):
 # --- Formeln -------------------------------------------------------------------------------------------------------------------------------
 
 with st.expander("📐 Mathematische Formulierung"):
+    # erklaerseite:lesehilfe:start (erzeugt von tools/set_demo_explainer.py (Website-Repo) aus tools/content/explainers/transportplan-erklaert.json, nicht von Hand ändern)
     st.markdown(
         r"""
-**Lesehilfe.** Gegeben sind die Angebote $a_i$ der Lager, die Nachfragen $b_j$ der Kunden und die Kosten $c_{ij}$ je Einheit. Gesucht ist ein Plan $x_{ij}$, der die Gesamtkosten minimiert.
-Das Modell ist vollständig: alle Variablen, Nebenbedingungen und die Gleichheit der Summen stehen unten.
+**Lesehilfe.** Gegeben sind die Angebote $a_i$ der Lager, die Nachfragen $b_j$ der Kunden und die Kosten $c_{ij}$ je Einheit. Gesucht ist ein Plan $x_{ij}$, der die Gesamtkosten minimiert. Das Modell ist vollständig: alle Variablen, Nebenbedingungen und die Gleichheit der Summen stehen unten.
 
 | Symbol | Bedeutung |
 |---|---|
+| $n$, $m$ | Zahl der Lager, Zahl der Kunden |
 | $i = 1, \dots, n$ | Lager (Zeilen des Plans) |
 | $j = 1, \dots, m$ | Kunden (Spalten des Plans) |
 | $a_i \ge 0$, $b_j \ge 0$ | Angebot des Lagers $i$, Nachfrage des Kunden $j$, mit $\sum_i a_i = \sum_j b_j$ |
@@ -307,6 +319,12 @@ Das Modell ist vollständig: alle Variablen, Nebenbedingungen und die Gleichheit
 | $x_{ij} \ge 0$ | Menge von Lager $i$ an Kunde $j$ (der Plan) |
 | $u_i$, $v_j$ | Preise (Kantorovich-Potentiale, englisch dual variables); bei einem nicht entarteten Plan bis auf eine Konstante bestimmt |
 
+[Schritt für Schritt erklärt, mit Herleitung und Literatur](https://sebastianhanisch.net/transportplan-erklaert.html#fachleute)
+        """
+    )
+    # erklaerseite:lesehilfe:end
+    st.markdown(
+        r"""
 **Primales Problem (Transportproblem).**
 $$\min_{x \ge 0} \; \sum_{i=1}^{n} \sum_{j=1}^{m} c_{ij}\, x_{ij}$$
 $$\text{so dass} \quad \sum_{j=1}^{m} x_{ij} = a_i \;\; (i = 1, \dots, n), \qquad \sum_{i=1}^{n} x_{ij} = b_j \;\; (j = 1, \dots, m).$$
@@ -317,7 +335,7 @@ Eintrag hat. Bei einer nicht entarteten Ecke gilt $\sum_i (k_i - 1) = m - 1$, we
 
 **Duales Problem (Preise).**
 $$\max_{u, v} \; \sum_{i=1}^{n} a_i\, u_i + \sum_{j=1}^{m} b_j\, v_j \qquad \text{so dass} \qquad u_i + v_j \le c_{ij} \;\; \text{für alle } i, j.$$
-Im Optimum sind beide Werte gleich (starke Dualität), und ein Eintrag $x_{ij} > 0$ ist nur dort möglich, wo $c_{ij} - u_i - v_j = 0$ gilt (komplementärer Schlupf). Mit $(u, v)$ ist auch $(u + s,\; v - s)$ zulässig und optimal, und bei einem nicht entarteten Plan sind die Preise bis auf diese Konstante bestimmt; bei Entartung (etwa bei gleichen Massen) gibt es weitere optimale Preise.
+Im Optimum sind beide Werte gleich (starke Dualität), und ein Eintrag $x_{ij} > 0$ ist nur dort möglich, wo $c_{ij} - u_i - v_j = 0$ gilt (komplementärer Schlupf). Mit $(u, v)$ ist für jede Konstante $\delta$ auch $(u + \delta,\; v - \delta)$ zulässig und optimal, und bei einem nicht entarteten Plan sind die Preise bis auf diese Konstante bestimmt; bei Entartung (etwa bei gleichen Massen) gibt es weitere optimale Preise.
 
 **Eintrittsregeln und Gleichstand.** Die optimale Menge besteht aus allen zulässigen Plänen, die nur auf Zellen mit $c_{ij} - u_i - v_j = 0$ liegen. Hat sie mehr als einen Punkt, ist
 auch jede Mischung $t P_1 + (1 - t) P_2$ ($0 \le t \le 1$) optimal; der Simplex liefert eine Ecke dieser Menge, und welche, hängt von der Eintrittsregel ab.
@@ -354,5 +372,5 @@ st.markdown("---")
 st.caption(
     "Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – "
     "Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). "
-    "Mehr zu den Demos: [Interaktive Demos](https://sebastianhanisch.net/demos.html)."
+    "Mehr zur Reihe: [Optimaler Transport: vom Plan zum Abstand](https://sebastianhanisch.net/konzepte-optimaler-transport.html)."
 )
